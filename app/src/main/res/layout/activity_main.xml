@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zoz"
+        />
+
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitEnd"
+        android:src="@drawable/limpy"
+        android:layout_alignRight="@+id/phone"/>
+
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:text="♥DeSpasiTO Library♥"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@+id/hi"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-light"
+        android:text="Its a place that u can read and borrow all the books u need,
+also U can buy drinks and have dinner,
+there is a corner 2 ppl who want 2 break down♥"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FD8E09"
+        android:text="phone num:555"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WE WELCOME U ANY TIME BRO \\ SIS"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"/>
+
+</RelativeLayout>
